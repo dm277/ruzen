@@ -1,3 +1,16 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = '/'
+languageCode = 'cs-cz'
+title = 'd277'
+theme = 'ananke'
+canonifyURLs = true
+DefaultContentLanguage = 'cs'
+SectionPagesMenu = 'main'
+Paginate = 12
+summaryLength = 20
+[taxonomies]
+  tag = 'tags'
+  category = 'kategorie'
+[params]
+  favicon = 'favicon.ico'
+  MainSections = ['blog','koncept']
+  body_classes = 'avenir bg-near-white'
